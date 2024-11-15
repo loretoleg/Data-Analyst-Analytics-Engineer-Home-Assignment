@@ -41,5 +41,16 @@ Finally, I loaded data into it using the faker python library:
 
 ![SQL Image](./images/faker.png)
 
+---
 
+### 2. ETL Process
+
+Assume you’re receiving daily files with new orders and customer updates. Write a Python
+script that would:
+- Load new data from a CSV file into a staging table.
+- Update the main tables (`Customers`, `Orders`, `Order_Items`) based on this new data.
+
+### Deliverable
+- Python code demonstrating the ETL process.
+- Brief explanation of your approach to handling updates, deletions, and new entries.
 ---
