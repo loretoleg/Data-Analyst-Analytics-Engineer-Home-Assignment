@@ -123,9 +123,9 @@ decision-making.
 
 For the dashboard, I chose different types of visuals to make the data easy to digest for stakeholders:
 
-    Top Selling Items (Pie Chart): I used a pie chart to show which items are selling the most. It makes it simple to see at a glance the share of each item in total sales.
-    Daily Revenue (Bar Chart): A bar chart was chosen for daily revenue to visualize how sales are changing over time.
-    Indicators: I kept some key metrics like total sales and average order size as indicators, so stakeholders can quickly get an overview of performance.
+Top Selling Items (Pie Chart): I used a pie chart to show which items are selling the most. It makes it simple to see at a glance the share of each item in total sales.
+Daily Revenue (Bar Chart): A bar chart was chosen for daily revenue to visualize how sales are changing over time.
+Indicators: I kept some key metrics like total sales and average order size as indicators, so stakeholders can quickly get an overview of performance.
 
 This approach makes it easier to spot trends and key insights quickly, helping with informed decision-making.
 
