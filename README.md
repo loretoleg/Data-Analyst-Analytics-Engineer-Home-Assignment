@@ -25,8 +25,21 @@ Create a simplified schema that includes the following tables:
 The database design is straightforward and simple, with normalization applied to eliminate data redundancy. Primary keys have been assigned to each table to uniquely identify records and ensure data integrity. This design helps maintain data consistency and reduces redundancy across the database. One potential improvement would be to assign a surrogate primary key to the order_items table. By doing so, we could eliminate the need for a composite key (which currently uses order_id and item_id), improving query performance and making the database easier to maintain over time.
 To make future troubleshooting easier, I’d create a checklist of potential issues. This would help me quickly diagnose similar problems down the road and ensure that troubleshooting steps are well-documented for consistency.
 
+I started by creating a postgresql database using AWS RDS for hosting.
+
+The SQL code for table creation is shown below:
 
 ![SQL Image](./images/sql.png)
+
+![SQL Image](./images/table_creation.png)
+
+Then, I wanted a visualization of the database, so I logged into pgAdmin 4 to obtain the following image: 
+
+![SQL Image](./images/schema_viz.png)
+
+Finally, I loaded data into it using the faker python library:
+
+![SQL Image](./images/faker.png)
 
 
 ---
